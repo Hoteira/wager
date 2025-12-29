@@ -95,6 +95,6 @@ anchor test
 anchor deploy --provider.cluster devnet
 ```
 
-## 📜 License
+## License
 
 Distributed under the [MIT](LICENSE) license.
