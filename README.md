@@ -9,7 +9,6 @@
 [![Anchor](https://img.shields.io/badge/Anchor-0.29.0-blue?style=flat-square&logo=anchor)](https://project-serum.github.io/anchor/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 
-<sub>Constant Product AMM • On-Chain Settlement • Dynamic Pricing • Slippage Protection</sub>
 </div>
 
 <br>
