@@ -22,11 +22,11 @@ Unlike traditional order-book markets, Wager Protocol utilizes a **Constant Prod
 
 ## Key Features
 
--   ** Dynamic AMM Pricing:** Prices adjust automatically based on the ratio of funds in the YES/NO pools, reflecting real-time market sentiment.
--   ** Instant Liquidity:** Exit positions early via the AMM curve (sell back to the pool) or wait for resolution to claim full winnings.
--   ** Slippage Protection:** Built-in slippage limits ensure users are not filled at unfavorable rates during high volatility.
--   ** Fee Structure:** Configurable protocol fees and developer fees, distributed automatically upon withdrawals and claims.
--   ** Secure Architecture:** Fully on-chain logic with strictly typed accounts and permissioned resolution.
+-   **Dynamic AMM Pricing:** Prices adjust automatically based on the ratio of funds in the YES/NO pools, reflecting real-time market sentiment.
+-   **Instant Liquidity:** Exit positions early via the AMM curve (sell back to the pool) or wait for resolution to claim full winnings.
+-   **Slippage Protection:** Built-in slippage limits ensure users are not filled at unfavorable rates during high volatility.
+-   **Fee Structure:** Configurable protocol fees and developer fees, distributed automatically upon withdrawals and claims.
+-   **Secure Architecture:** Fully on-chain logic with strictly typed accounts and permissioned resolution.
 
 ##  AMM Mechanics
 
