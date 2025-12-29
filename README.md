@@ -14,21 +14,21 @@
 
 <br>
 
-## 📖 Overview
+## Overview
 
 **Wager Protocol** is a high-speed, decentralized prediction market built on Solana using the Anchor framework. It allows users to speculate on binary (Yes/No) outcomes using a unique Automated Market Maker (AMM) model.
 
 Unlike traditional order-book markets, Wager Protocol utilizes a **Constant Product (CP-AMM)** invariant (`x * y = k`) to facilitate instant liquidity, enabling users to enter and exit positions at any time before market resolution without needing a counterparty.
 
-## ✨ Key Features
+## Key Features
 
--   **🔄 Dynamic AMM Pricing:** Prices adjust automatically based on the ratio of funds in the YES/NO pools, reflecting real-time market sentiment.
--   **⚡ Instant Liquidity:** Exit positions early via the AMM curve (sell back to the pool) or wait for resolution to claim full winnings.
--   **🛡️ Slippage Protection:** Built-in slippage limits ensure users are not filled at unfavorable rates during high volatility.
--   **💰 Fee Structure:** Configurable protocol fees and developer fees, distributed automatically upon withdrawals and claims.
--   **🔒 Secure Architecture:** Fully on-chain logic with strictly typed accounts and permissioned resolution.
+-   ** Dynamic AMM Pricing:** Prices adjust automatically based on the ratio of funds in the YES/NO pools, reflecting real-time market sentiment.
+-   ** Instant Liquidity:** Exit positions early via the AMM curve (sell back to the pool) or wait for resolution to claim full winnings.
+-   ** Slippage Protection:** Built-in slippage limits ensure users are not filled at unfavorable rates during high volatility.
+-   ** Fee Structure:** Configurable protocol fees and developer fees, distributed automatically upon withdrawals and claims.
+-   ** Secure Architecture:** Fully on-chain logic with strictly typed accounts and permissioned resolution.
 
-## 📐 AMM Mechanics
+##  AMM Mechanics
 
 The protocol manages liquidity using the formula:
 
@@ -46,7 +46,7 @@ This ensures that as the probability of an outcome increases (pool size grows), 
 </div>
 <br>
 
-## 🛠️ Usage Example
+## Usage Example
 
 ```typescript
 // 1. Create a Market
@@ -75,7 +75,7 @@ await program.methods
   .rpc();
 ```
 
-## 📦 Development
+## Development
 
 ### Prerequisites
 -   Rust 1.75+
